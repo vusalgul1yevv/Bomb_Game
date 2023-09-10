@@ -1,7 +1,11 @@
-package main;
+package main
 
-import java.util.ArrayList;
+class Player {
+	  String name;
+	  int heart;
 
-class Config<T> {
-    public ArrayList<T> list = new ArrayList<>();
-}
+	  Player(String name, int heart) {
+	    this.name = name;
+	    this.heart = heart;
+	  }
+	}
